@@ -1,8 +1,9 @@
-# React + Vite
+A simple Ludo game built with React where players can select a number, roll the die, and earn points based on matching conditions. The game dynamically updates the score and provides an engaging user experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+Number Selection: The user selects a number between 1 and 6 before rolling the die.
+Dice Roll: A random number (1-6) is generated when the user rolls the die.
+Scoring Rules:
+If the selected number matches the die roll, the user earns +5 points.
+If both the selected number and the die roll are either even or odd, the user earns +2 points.
+If neither condition is met, the user loses 5 points.
